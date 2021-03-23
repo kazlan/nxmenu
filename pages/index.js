@@ -221,7 +221,7 @@ export default function Home(){
                         La más alta tecnología a tu alcance.
                     </h4>
                     <p className="mt-4 text-lg leading-6 text-gray-500 dark:text-gray-300">
-                        Build a simply and powered collaborative space for all your team. Track, share, measure, you have a fully control, it&#x27;s never be simply and efficient.
+                        Build a simple and powered collaborative space for all your team. Track, share, measure, you have a fully control, it&#x27;s never be simply and efficient.
                     </p>
                     <ul className="mt-8 md:grid md:grid-cols-2 gap-6">
                         <li className="mt-6 lg:mt-0">
@@ -415,7 +415,7 @@ export default function Home(){
               <div className="bg-gray-100 p-6 rounded-lg">
                 <img className="h-40 rounded w-full object-cover object-center mb-6" src="https://dummyimage.com/723x403" alt="content"/>
                 <h2 className="text-lg text-blue-500 font-medium title-font mb-4">Salud ocular</h2>
-                <p> className="leading-relaxed text-base text-justify">Deja tu visión en manos de nuestros especialistas y que no te mareen de un sitio a otro. </p>
+                <p className="leading-relaxed text-base text-justify"> Deja tu visión en manos de nuestros especialistas y que no te mareen de un sitio a otro. </p>
                 <ul className="list-disc">
                   <li>Diagnóstico diferencial completo</li>
                   <li>Retinoscopio propio</li>
