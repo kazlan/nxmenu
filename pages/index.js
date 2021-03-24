@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
+import Image from 'next/image'
 import React from 'react'
 
 export default function Home(){
@@ -44,7 +45,7 @@ export default function Home(){
         <nav className="flex flex-wrap min-w-20 items-center justify-between p-4">
           <div className="lg:order-2 w-auto lg:w-1/5 lg:text-center">
             <a className="text-xl text-indigo-600 font-semibold font-heading" href="#">
-              <img src="/logotrans.png" className="img-fluid" alt="Optica mar" />
+              <Image src="/logotrans.png" className="img-fluid" alt="Optica mar" height={54} width={256}/>
             </a>
           </div>
             <div className="block lg:hidden">
@@ -138,6 +139,9 @@ export default function Home(){
                     <p className="mt-4 text-lg leading-6 text-gray-500 dark:text-gray-300">
                         Build a simply and powered collaborative space for all your team. Track, share, measure, you have a fully control, it&#x27;s never be simply and efficient.
                     </p>
+                    <div className="">
+                      <button className="">Ver más...</button>
+                    </div>
                     <ul className="mt-8 md:grid md:grid-cols-2 gap-6">
                         <li className="mt-6 lg:mt-0">
                             <div className="flex">
@@ -431,7 +435,7 @@ export default function Home(){
 
       { /* Contacto */ }
       <section className="text-gray-600 body-font relative">
-        <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+        <div className="container px-5 py-16 mx-auto flex sm:flex-nowrap flex-wrap">
           <div className="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
             <iframe width="100%" height="100%" className="absolute inset-0" frameBorder="0" title="map" marginHeight="0" marginWidth="0" scrolling="no" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=%C4%B0Torrevieja+(Ramon%20Gallud%209)&amp;ie=UTF8&amp;t=&amp;z=18&amp;iwloc=B&amp;output=embed" style={{filter: "grayscale(1) contrast(1.2) opacity(0.4)"}}></iframe>
             <div className="bg-white relative flex flex-wrap py-6 rounded shadow-md">
