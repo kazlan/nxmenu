@@ -38,8 +38,11 @@ export default function Home(){
   },[])
 
   return (
-    // 
+    //
     <div>
+      <Head>
+        <title>LightHouse MenuMaker</title>
+      </Head>
       {/* Nav */}
       <section className="container mx-auto px-8"> 
         <nav className="flex flex-wrap min-w-20 items-center justify-between p-4">
